@@ -4,7 +4,7 @@ import time
 
 provided_path = sys.argv[1]
 older_than_days = int(sys.argv[2])
-print(f"Finding files in {provided_path} older than {older_than_days} days")
+print(f"Finding files in {provided_path} older than {older_than_days} days...")
 
 SECONDS_IN_DAY = 86400
 time_now = time.time()
